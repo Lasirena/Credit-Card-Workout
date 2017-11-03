@@ -1,8 +1,10 @@
+/* PREV LINKS COLOUR: #337ab7; */
+
 /* NAVIGATION */
 
 .navbar {
 	background-color: #242424;
-	border-bottom: 1px solid #337ab7;
+	border-bottom: 1px solid #9CAEC3;
 }
 
 .navbar a {
@@ -11,7 +13,7 @@
 
 .navbar a:hover {
 	color: #ffffff !important;
-	background-color: #337ab7 !important;
+	background-color: #9CAEC3 !important;
 }
 
 .navbar-header .navbar-brand {
@@ -60,7 +62,7 @@
 
 .how-it-works h1 {
 	font-size: 1.9em;
-	color: #337ab7;
+	color: #9CAEC3;
 	padding: 40px 0 25px;
 	text-align: center;
 }
@@ -73,7 +75,7 @@
 
 .calculator h1 {
 	font-size: 1.9em;
-	color: #337ab7;
+	color: #9CAEC3;
 	padding: 40px 0 25px;
 	text-align: center;
 }
@@ -96,7 +98,7 @@
 
 .about h1 {
 	font-size: 1.9em;
-	color: #337ab7;
+	color: #9CAEC3;
 	padding-bottom: 25px;
 }
 
@@ -140,4 +142,29 @@
 	.footer, .footer .footer-right {
 		text-align: center;
 	}
+}
+
+/* CUSTOM BOOTSTRAP ADD-ONS */
+
+.btn-transparent {	
+	color: #ffffff; 
+	background-color: transparent; 
+  	border-color: #9CAEC3; 
+}
+
+.btn-transparent:hover {
+	background-color: #6b829b;
+	border-color: #6b829b;
+	color: #fff;
+}
+
+.btn-lightblue {
+	color: #fff;
+	background-color: #9CAEC3
+}
+
+.btn-lightblue:hover {
+	color: #fff;
+	background-color: #6b829b;
+	border-color: #6b829b;
 }
